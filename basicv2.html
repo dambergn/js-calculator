@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic Calculator v2</title>
+  <style>
+      #calc-contain{
+        position: relative;
+        width: 300px;
+        border: 2px solid black;
+        border-radius: 4px;
+      }
+  
+      input[type=button]{
+        background: lightGray;
+        width: 20%;
+        font-size: 20px;
+        font-weight: 900;
+        margin: 2%;
+        border-radius:4px;
+      }
+  
+      input[type=text]{
+        position: relative;
+        display: block;
+        width: 90%;
+        margin: 5px auto;
+        font-size: 20px;
+      }
+    </style>
+</head>
+<body>
+  <h1>Basic Calculator v2</h1>
+  <p>Same functionality, different method.</p>
+  <div id="calc-contain">
+    <form name="calculator">
+      <input id="answer" type="text" name="answer" />
+      <br>
+      <input id="key7" type="button" value="7"/>
+      <input id="key8" type="button" value="8"/>
+      <input id="key9" type="button" value="9"/>
+      <input id="addition" type="button" value="+"/>
+      <br>
+      <input id="key4" type="button" value="4"/>
+      <input id="key5" type="button" value="5"/>
+      <input id="key6" type="button" value="6"/>
+      <input id="subtract" type="button" value="-"/>
+      <br>
+      <input id="key1" type="button" value="1"/>
+      <input id="key2" type="button" value="2"/>
+      <input id="key3" type="button" value="3"/>
+      <input id="multiply" type="button" value="x"/>
+      <br>
+      <input id="clear" type="button" value="c"/>
+      <input id="key0" type="button" value="0"/>
+      <input id="=" type="button" value="="/>
+      <input id="divide" type="button" value="/"/>
+      <br>
+    </form>
+  </div>
+  <script src="js/controls.js"></script>
+</body>
+</html>
