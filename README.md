@@ -1,2 +1,2 @@
 # js-ten-key-calc
-JavaScript 10 key accounting calculator
+A few different types of JavaScript based calculators.

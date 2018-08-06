@@ -1,0 +1,16 @@
+*{
+  border: 1px solid black;
+}
+
+.section{
+  display: grid;
+}
+
+.num-key{
+ width: 40px;
+ height: 40px;
+}
+
+/* #key-plusE{
+  height: 120px;
+} */
